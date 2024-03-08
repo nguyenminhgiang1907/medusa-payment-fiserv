@@ -21,7 +21,7 @@ A minimal payment provider that allows merchants to handle payments manually.
 1\. Run the following command in the directory of the Medusa backend:
 
   ```bash
-  npm install medusa-payment-manual
+  npm install medusa-payment-fiserv
   ```
 
 2\. In `medusa-config.js` add the following at the end of the `plugins` array:
@@ -29,7 +29,7 @@ A minimal payment provider that allows merchants to handle payments manually.
   ```js
   const plugins = [
     // ...
-    `medusa-payment-manual`
+    `medusa-payment-fiserv`
   ]
   ```
 

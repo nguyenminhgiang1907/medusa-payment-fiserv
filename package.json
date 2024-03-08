@@ -6,7 +6,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/medusajs/medusa",
-    "directory": "packages/medusa-payment-manual"
+    "directory": "packages/medusa-payment-fiserv"
   },
   "engines": {
     "node": ">=16"
